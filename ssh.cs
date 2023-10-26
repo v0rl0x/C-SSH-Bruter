@@ -28,7 +28,7 @@ class Program
     private static object sentMessagesMutex = new object();
 
     private const string telegramToken = "11111"; // telegram bot token goes here
-    private const long chatID = 1234;  // telegram chat ID here replace 1234, keep the L
+    private const long chatID = 1234L;  // telegram chat ID here replace 1234, keep the L
 
     private static string[] cpuModelCmds = {
     "lscpu | grep 'Model name'",
