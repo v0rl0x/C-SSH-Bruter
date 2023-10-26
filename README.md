@@ -3,10 +3,7 @@ C# SSH Bruter, multi functionality including telegram bot outputting and AS deta
 
 ONLY FOR EDUCATIONAL PURPOSES! I do not promote illegal usage of this program. Test only on servers you own.
 
-Setting Up and Running the SSH Login Script on CentOS and Ubuntu:
-
-1. Install .NET Core SDK:
---------------------------------
+### Setting Up and Running the SSH Login Script on CentOS and Ubuntu:
 
 ### CentOS:
 - Update package list:
