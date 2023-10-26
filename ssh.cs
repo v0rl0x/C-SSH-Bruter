@@ -27,8 +27,8 @@ class Program
     private static Dictionary<string, bool> sentMessages = new Dictionary<string, bool>();
     private static object sentMessagesMutex = new object();
 
-    private const string telegramToken = "6591745969:AAEhOP68jrs4CdL833rryF6kFzUVmKr3wFY"; // telegram bot token goes here
-    private const long chatID = 5408575119L;  // telegram chat ID here replace 1234, keep the L
+    private const string telegramToken = "11111"; // telegram bot token goes here
+    private const long chatID = 1234;  // telegram chat ID here replace 1234, keep the L
 
     private static string[] cpuModelCmds = {
     "lscpu | grep 'Model name'",
