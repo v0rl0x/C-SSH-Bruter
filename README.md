@@ -45,3 +45,17 @@ Setting Up and Running the SSH Login Script on CentOS and Ubuntu:
 ### Running the Script on both OS:
 
 dotnet run ipfile.txt loginsfile.txt port threads "commandtorunonservers"
+
+### Information on combo file:
+
+Combo file allows for the usage of whitespaces and blank lines to allow for blank logins. Format is user:pass for example:
+
+root:root
+admin:admin
+root:
+:root
+:admin
+admin:
+
+and so on.....
+
